@@ -7,8 +7,8 @@ void passRef(int&ref){ref = 20; std::cout << &ref << "" << ref << "\n"; }
 int main()
 {
     using namespace JeongYoonhA;
-    student Jeong{2449101, 100, 'A'};printStudent(Jeong);
-    student Kim{ inputStudent()};printStudent(Kim);
+    // student Jeong{2449101, 100, 'A'};printStudent(Jeong);
+     student Kim{ inputStudent()};printStudent(Kim);
 
 
     // int n{10}; std::cout << &n << " " << n <<  "\n";
@@ -17,6 +17,6 @@ int main()
     
     // int m{inputInteger()};
     // std::cout << n << "+" << m << "=" << addIntegers(n,m) << '\n';
-    // return 0;
+     return 0;
 
 }
